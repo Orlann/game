@@ -1,7 +1,9 @@
 package com.epam.lab.domain.goods;
 
 import com.epam.lab.enums.SportGoodEnum;
-
+/**
+ * Class that represents kind of products - sport goods.
+ */
 public final class SportGood extends Product {
     private SportGoodEnum sportGoodType;
 

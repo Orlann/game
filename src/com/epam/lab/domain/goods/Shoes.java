@@ -1,6 +1,9 @@
 package com.epam.lab.domain.goods;
 
 import com.epam.lab.enums.ShoesEnum;
+/**
+ * Class that represents kind of products - shoes
+ */
 public final class Shoes extends Product {
     private ShoesEnum shoesType;
     private String consumer;

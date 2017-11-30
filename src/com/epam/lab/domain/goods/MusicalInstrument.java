@@ -1,7 +1,9 @@
 package com.epam.lab.domain.goods;
 
 import com.epam.lab.enums.MusicalEnum;
-
+/**
+ * Class that represents kind of products - musical instruments
+ */
 public final class MusicalInstrument extends Product {
     private MusicalEnum musicalType;
     private String material;

@@ -3,7 +3,9 @@ package com.epam.lab.domain.goods;
 import com.epam.lab.enums.FoodEnum;
 
 import java.util.Date;
-
+/**
+ * Class that represents kind of products - food
+ */
 public class Food extends Product {
     private FoodEnum foodType;
     private Integer discount;
