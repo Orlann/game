@@ -2,7 +2,9 @@ package com.epam.lab.domain.goods;
 
 import com.epam.lab.enums.AnimalEnum;
 
-
+/**
+ * Class that represents kind of products - animal
+ */
 public final class Animal extends Product {
     private AnimalEnum animalType;
     private String color;
