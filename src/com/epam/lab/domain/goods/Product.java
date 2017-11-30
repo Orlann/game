@@ -1,5 +1,8 @@
 package com.epam.lab.domain.goods;
 
+/**
+ * Abstract class which represents product.
+ */
 public abstract class Product {
     protected String name;
     protected Double price;
